@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#niemul").hide();
+        $("#niem").click(function () {
+        $("#niemul").slideToggle(50);
+});
+        
+      });
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Czołgi</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="Góra">
+        <header>
+          <a href="SG.html" id="logo"> <img src="" alt="LOGO" /></a>
+
+          <p id="baner">MUZEUM CZOŁGÓW (jakieś tło do nazwy będzie)</p>
+        </header>
+
+        <div id="menu">
+          <a href="SG.html">Strona Główna</a>
+          <a href="czołgi.html">Czołgi</a>
+          <a href="">Zwiedzanie</a>
+          <a href="">Pamiątki</a>
+          <a href="">Kontakt</a>
+        </div>
+      </div>
+      <div id="zawartość">
+        <div id="bok">
+          <div>
+            <ul>
+              <li id="niem" class="niemC">Niemieckie</li>
+              <ul id="niemul">
+                <li class="niemC">panzer</li>
+                <li class="niemC">maus</li>
+                <li class="niemC">itd</li>
+              </ul>
+              <li >Brytyjskie</li>
+              <li >Polskie</li>
+              <li >Rzadziecke</li>
+              <li >Japońskie</li>
+              <li >Amerykańskie</li>
+              <li >Francuskie</li>
+            </ul>
+          </div>
+        </div>
+        <div id="KG">
+          <h1>NAzWa CZołgu</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+            minima tempore, sit placeat laborum, exercitationem dolore officiis
+            quisquam magni ut repellat quia delectus voluptate perferendis
+            obcaecati cupiditate, quaerat iusto! Quia?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

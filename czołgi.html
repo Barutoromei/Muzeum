@@ -7,11 +7,28 @@
     <script src="jquery.js"></script>
     <script>
       $(document).ready(function () {
-        $("#niemul").hide();
+        $("#niemul,#brytul,#polsul,#radzul,#japoul,#amerul,#franul").hide();
         $("#niem").click(function () {
-        $("#niemul").slideToggle(50);
-});
-        
+          $("#niemul").slideToggle(50);
+        });
+        $("#bryt").click(function () {
+          $("#brytul").slideToggle(50);
+        });
+        $("#pols").click(function () {
+          $("#polsul").slideToggle(50);
+        });
+        $("#radz").click(function () {
+          $("#radzul").slideToggle(50);
+        });
+        $("#japo").click(function () {
+          $("#japoul").slideToggle(50);
+        });
+        $("#amer").click(function () {
+          $("#amerul").slideToggle(50);
+        });
+        $("#fran").click(function () {
+          $("#franul").slideToggle(50);
+        });
       });
     </script>
     <link rel="stylesheet" href="style.css" />
@@ -37,6 +54,7 @@
       <div id="zawartość">
         <div id="bok">
           <div>
+            //tu jest lista   V
             <ul>
               <li id="niem" class="niemC">Niemieckie</li>
               <ul id="niemul">
@@ -44,12 +62,43 @@
                 <li class="niemC">maus</li>
                 <li class="niemC">itd</li>
               </ul>
-              <li >Brytyjskie</li>
-              <li >Polskie</li>
-              <li >Rzadziecke</li>
-              <li >Japońskie</li>
-              <li >Amerykańskie</li>
-              <li >Francuskie</li>
+              <li id="bryt" class="brytC">Brytyjskie</li>
+              <ul id="brytul">
+                <li class="brytC">Valentine</li>
+                <li class="brytC">AT</li>
+                <li class="brytC">itd</li>
+              </ul>
+              <li id="pols" class="polsC">Polskie</li>
+              <ul id="polsul">
+                <li class="polsC">10TP</li>
+                <li class="polsC">7TP</li>
+                <li class="polsC">itd</li>
+              </ul>
+              <li id="radz" class="radzC">Radziecke</li>
+              <ul id="radzul">
+                <li class="radzC">10TP</li>
+                <li class="radzC">7TP</li>
+                <li class="radzC">itd</li>
+              </ul>
+              <li id="japo" class="japoC">Japońskie</li>
+              <ul id="japoul">
+                <li class="japoC">10TP</li>
+                <li class="japoC">7TP</li>
+                <li class="japoC">itd</li>
+              </ul>
+              
+              <li id="amer" class="amerC">Amerykańskie</li>
+              <ul id="amerul">
+                <li class="amerC">10TP</li>
+                <li class="amerC">7TP</li>
+                <li class="amerC">itd</li>
+              </ul>
+              <li id="fran" class="franC">Francuskie</li>
+              <ul id="franul">
+                <li class="franC">10TP</li>
+                <li class="franC">7TP</li>
+                <li class="franC">itd</li>
+              </ul>
             </ul>
           </div>
         </div>

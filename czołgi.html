@@ -29,16 +29,28 @@
         $("#fran").click(function () {
           $("#franul").slideToggle(50);
         });
+        $("li").mouseenter(function () {
+          $(this).css("color", "white");
+          $(this).css("border", "solid 1px white");
+          $(this).css("background-color", "red");
+
+        });
+        $("li").mouseleave(function () {
+          $(this).css("color", "black");
+          $(this).css("border", "solid 1px black");
+          $(this).css("background-color", "crimson");
+        });
       });
     </script>
     <link rel="stylesheet" href="style.css" />
     <title>Czołgi</title>
+    <link rel="shortcut icon" href="logov1.png">
   </head>
   <body>
     <div id="container">
       <div id="Góra">
         <header>
-          <a href="SG.html" id="logo"> <img src="logov1.png" alt="LOGO" /></a>
+          <a href="SG.html" id="logo"> < id="logo" img src="logov1.png" alt="LOGO" /></a>
 
           <p id="baner">MUZEUM CZOŁGÓW (jakieś tło do nazwy będzie)</p>
         </header>
@@ -103,13 +115,40 @@
           </div>
         </div>
         <div id="KG">
-          <h1>NAzWa CZołgu</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-            minima tempore, sit placeat laborum, exercitationem dolore officiis
-            quisquam magni ut repellat quia delectus voluptate perferendis
-            obcaecati cupiditate, quaerat iusto! Quia?
+          <h1>Początki Broni Pancernej</h1>
+          <div id="KG1" >
+          <p id="KGL" >
+            <b>Pierwszy Prototyp</b> <br>
+            W czasie I wojny światowej siłom brytyjskim brakowało pojazdu, który mógłby skutecznie pokonywać okopy wroga.W 1915 roku pułkownik Ernest Swinton i pułkownik Maurice Hankey przekonali ówczesnego Pierwszego Lorda Admiralicji Winstona Churchilla, że kluczem do sukcesu są opancerzone pojazdy na gąsienicach, zdolne pokonywać okopy i tak powstał prototyp little Willie. 
+            <br> Warzył 16 i pół Tony, mierzył prawie 6 metrów długości, 2.8 metry szerokości i 2.7 wysokości. Był uzbrojony
+            w jedną armate Vickers i sześć karabinów maszynowych, a pancerz miał 10mm grubości. Był w stanie rozpędzić się do 3.5 Km/h   
           </p>
+          <p id="KGP" ><b>Pierwsza Bitwa</b> <br>1 lipca 1916 roku nad rzeką Sommą we Francji rozpoczęła się bitwa będąca symbolem koszmaru walk pozycyjnych I wojny światowej. 15 września pod Sommą po raz pierwszy wykorzystano w boju czołgi, Były to czołgi Mark I pierwszy czołg wykożystany Bojowo, choć planowano wysłać 49 pojazdów w bitwie uczestniczyło tylko 18 reszta albo nie dotarła na front albo uległa awarii. Atakowały w znacznym rozproszeniu (w grupach po dwa, trzy wozy) na nieprzyjaznym terenie, pomimo to były zaskoczeniem dla Niemców, zrobiły we froncie wyrwę o szerokości kilkunastu kilometrów i głębokości kilkudziesięciu. Brytyjczycy nie wykożystali sukcesu ponieważ zaopatrzenie pozostało daleko w tyle i czołgi z braku amunicji wycofano na tyły.   </p>
+          </div>
+        </div>
+        <div id="bok">
+          <div id="bok1">
+            <p id="nbok1">
+              Little Willie
+            </p>
+            <img id="zdjC" src="LittleWillie.jpg" alt="">
+            
+
+            <p>
+              Pierwszy prototyp Czołgu.
+            </p>
+            
+          </div>
+
+          <div id="bok1">
+            <p id="nbok1">Mark I</p>
+            <img id="zdjC" src="mark1.jpg" alt="">
+
+            <p>
+              Pierwszy czołg użyty w Walce
+            </p>
+          </div>
+          </div>
         </div>
       </div>
     </div>

@@ -84,7 +84,17 @@ margin-top: 2px;
     border: 1px solid black;
 }
 
-#gei{
-    
+#zdjC{
+    max-width: 194px;
+}
+h1{
+    text-align: center;
+}
+#KG1{
+    display: flex;
+}
+#KGL,#KGP{
+    width: 50%;
+    margin: 10px;
 }
 

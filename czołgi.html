@@ -40,6 +40,19 @@
           $(this).css("border", "solid 1px black");
           $(this).css("background-color", "crimson");
         });
+
+        $("#CharB1").click(function () {
+          $("h1").text("Char B1");
+          $("#KGL").html("<b>Powstanie</b><br>Char B1 z wyglądu przypominał pojazd pancerny z okresu I wojny światowej, gdyż jego koncepcja powstała zaledwie kilka lat po jej zakończeniu. Początkowo miał być działem samobieżnym uzbrojonym w haubicę 75 mm, umieszczoną w kadłubie. Później, już na początku lat 30., dodano do niego wieżę z armatą 47 mm, co zmieniło jednocześnie jego przeznaczenie na czołg ciężki. Pierwsze prace nad konstrukcją rozpoczęto w 1921 roku, jednak wielokrotnie były przerywane, przez co można w niej znaleźć rozwiązania z różnych okresów rozwoju technik budowy broni pancernej. Prototyp czołgu B1 ukończono w 1935 roku i był to jeden z najpotężniejszych wozów bojowych tamtego okresu. Ostateczna wersja otrzymała nazwę Char B1-bis i posiadała pancerz wzmocniony do 60 mm, zmodyfikowaną wieżę i silnik o większej mocy. Jej produkcję rozpoczęto w 1937 roku i do roku 1940 zbudowano 403 egzemplarze tego pojazdu.");
+          $("#KGP").html("<b>W walce</b><br>Z powodu silnego opancerzenia i uzbrojenia Char B1, który był w stanie zniszczyć każdy niemiecki wóz bojowy używany w 1940 roku, stanowił psychologiczny wstrząs dla niemieckich żołnierzy. Jego potencjał nie został jednak w pełni wykorzystany, z jednej strony ze względu na rozproszenie tych maszyn na długim odcinku frontu, z drugiej - z uwagi na ich dużą wrażliwość na awarie i uszkodzenia.Potężnie uzbrojony czołg okazał się jednak groźny głównie w teorii. Po raz kolejny nie sprawdziła się francuska koncepcja, w myśl której dowódca czołgu miał obsługiwać główne uzbrojenie pojazdu. W warunkach szybko zmieniającego się pola walki dowodzenie czołgiem, wyszukiwanie i atakowanie celów przerastało możliwości jednego człowieka. Dodatkowym minusem było źle zaprojektowane gniazdo armaty 75 mm, umieszczonej w kadłubie. Wskutek braku miejsca w kadłubie praktycznie niemożliwe było celowanie w płaszczyźnie poziomej.W bezpośrednim pojedynku pancernym potrafiły one dać się we znaki niemieckim czołgistom. 16 maja 1940 roku pod Stonne pojedynczy pojazd tego typu, zaatakował frontalnie grupę niemieckich wozów i zniszczył 13 z nich (PzKpfw III i PzKpfw IV), pomimo otrzymania 140 trafień, wycofał się z walki niezniszczony. Również zachowała się relacja gen. Heinza Guderiana, który uznał przeciwpancerne działo 47 mm za całkowicie nieskuteczne wobec grubego pancerza francuskiego czołgu.");
+          $("#nagluwek1").text("Char B1 w naszym muzeum.");
+          $("#zdj1").attr("src", "CharB1.jpg");
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 4<br>Trakcja:	gąsienicowa<br>Masa: 31 500 kg<br>Silnik: 6-cylindrowy Renault BDR o mocy 350 KM<br>Pancerz kadłuba: 60-55 mm<br> Pancerz Wieży: 46 mm<br>Uzbrojenie:<br> -haubica kal. 75 mm<br>-armata 34 kal. 47 mm<br>-2 karabiny maszynowe kal. 7,5 mm  ");
+
+          $("#nagluwek2").text("Char B1 zdobyty przez Wermaht");
+          $("#zdj2").attr("src", "CharB1-O2.jpg");
+          $("#inf2").text("Zdobyty podczas walk w Belgii, po tym jak porzuciła go załoga z powodu zepsucia układu kierowniczego. ");
+        });
       });
     </script>
     <link rel="stylesheet" href="style.css" />
@@ -107,7 +120,7 @@
               </ul>
               <li id="fran" class="franC">Francuskie</li>
               <ul id="franul">
-                <li class="franC">10TP</li>
+                <li id="CharB1" class="franC">Char B1</li>
                 <li class="franC">7TP</li>
                 <li class="franC">itd</li>
               </ul>
@@ -128,23 +141,23 @@
         </div>
         <div id="bok">
           <div id="bok1">
-            <p id="nbok1">
+            <p id="nagluwek1" class="nbok1">
               Little Willie
             </p>
-            <img id="zdjC" src="LittleWillie.jpg" alt="">
+            <img id="zdj1" class="zdjC" src="LittleWillie.jpg" alt="">
             
 
-            <p>
+            <p id="inf1" >
               Pierwszy prototyp Czołgu.
             </p>
             
           </div>
 
           <div id="bok1">
-            <p id="nbok1">Mark I</p>
-            <img id="zdjC" src="mark1.jpg" alt="">
+            <p id="nagluwek2" class="nbok1">Mark I</p>
+            <img id="zdj2" class="zdjC" src="mark1.jpg" alt="">
 
-            <p>
+            <p id="inf2" >
               Pierwszy czołg użyty w Walce
             </p>
           </div>

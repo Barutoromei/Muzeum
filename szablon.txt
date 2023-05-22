@@ -6,7 +6,7 @@ $("#nazwa czołgu").click(function () {
 
           $("#KGP").html("<b>W walce</b><br>informacje o tym jak się sprawdził w walce");
 
-          $("#nagluwek1").text("w naszym muzeum.");
+          $("#nagluwek1").text("tu nic nie pisz");
 
           $("#zdj1").attr("src", "jakieś zdjęcie najlepiej zrobione współczesnie");
 

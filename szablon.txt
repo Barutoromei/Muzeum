@@ -1,0 +1,21 @@
+$("#nazwa czołgu").click(function () {
+    
+          $("h1").text("nazwa czołgu");
+
+          $("#KGL").html("<b>Powstanie</b><br>informacje o tym jak powstał itp");
+
+          $("#KGP").html("<b>W walce</b><br>informacje o tym jak się sprawdził w walce");
+
+          $("#nagluwek1").text("w naszym muzeum.");
+
+          $("#zdj1").attr("src", "jakieś zdjęcie najlepiej zrobione współczesnie");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: <br>Trakcja:	<br>Masa: <br>Silnik: <br>Pancerz kadłuba: <br> Pancerz Wieży: <br>Uzbrojenie:<br> ");
+
+          $("#nagluwek2").text("nazwa do zdjęcia poniżej");
+
+          $("#zdj2").attr("src", "jakieś zdjęcie najlepiej jakieś stare");
+
+          $("#inf2").text("opis tego co jest na zdjęciu ");
+
+        });

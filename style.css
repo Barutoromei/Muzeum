@@ -19,13 +19,10 @@ header{
 }
 
 #baner{
+    color: azure;
     margin: 0;
     text-align: center;
-    
-    background-color: brown;
-    
-    
-   
+    background-image: url("tlo2.png");
     height: 100%;
     width: 100%;
 }
@@ -65,7 +62,7 @@ header{
     margin: 2px;
     border: 1px solid black;
 }
-#nbok1{
+.nbok1{
     margin: 0;
     background-color: blueviolet;
 }
@@ -84,7 +81,7 @@ margin-top: 2px;
     border: 1px solid black;
 }
 
-#zdjC{
+.zdjC,#mapa{
     max-width: 194px;
 }
 h1{

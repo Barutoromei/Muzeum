@@ -16,6 +16,6 @@ $("#nazwa czołgu").click(function () {
 
           $("#zdj2").attr("src", "jakieś zdjęcie najlepiej jakieś stare");
 
-          $("#inf2").text("opis tego co jest na zdjęciu ");
+          $("#inf2").text("opis tego co jest na zdjęciu ale można zostawić puste");
 
         });

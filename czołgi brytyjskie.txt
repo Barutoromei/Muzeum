@@ -1,0 +1,64 @@
+$("#Mk III Valentine").click(function () {
+    
+          $("h1").text("Mk III Valentine");
+
+          $("#KGL").html("<b>Powstanie</b><br>Valentine skonstruowano na bazie czołgu szybkiego Cruiser Mk II (A10) w korporacji Vickers-Armstrong. Został zatwierdzony do produkcji przez brytyjskie Ministerstwo Wojny 14 lutego 1940 roku. Jak wiele innych projektów, budowa pojazdu została przyspieszona po stracie sporej części sprzętu pod Dunkierką.  Była to konstrukcja łącząca dużą masę i rozmiar czołgu piechoty oraz słaby pancerz i prędkość czołgu szybkiego. Mimo że Valentine miał gorszy pancerz oraz silnik niż Matilda Mk II, kontynuowano produkcję ze względu na niższy koszt oraz niezawodność.");
+
+          $("#KGP").html("<b>W walce</b><br>Czołgi typu Valentine na początku sego powstania mogły konkurać z ówczesnymi czołgami nimieckimi lecz już wtedy miały wady. Przede wszystkim  wadami  tego czołgu były jego ułożenie pancerza oraz liczba załogi. Z czasem zaczęto modernizować Mk III lecz i tak czołg  ten nie mógł się równać pod względem masowości  z  inną aliancką konstrukcja M4 Sherman czy też na przykład z niemieckim Tiger’em  pod względem  pancerza i uzbrojenia.");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "MK 3 V.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 3  lub 4 (zalerznie od wersji)<br>Trakcja:	gąsienicowa<br>Masa: 17 050 kg<br>Silnik: 1 silnik benzynowy AEC A 189 (Mk I) 1 silnik wysokoprężny, 6-cylindrowy AEC A 190 (Mk II, III, VI) 1 silnik wysokoprężny GMC 6004 (Mk IV, V, VII – XI) o mocy 131 – 210 KM<br>Pancerz kadłuba: 17-65mm<br> Pancerz Wieży: 20-45mm<br>Uzbrojenie: (zalerznie od wersji)1 x armata 2 pdr. ROQF kal. 40 mm (Mk I–VII) 1 x armata 6-pdr. ROQF kal. 57 mm (Mk VIII– X) 1 x armata Ordnance QF 75 mm kal. 75 mm (Mk XI) 1 karabin maszynowy Besa kal. 7,92 mm (Mk. I-VII, X-XI) 1 przeciwlotniczy karabin maszynowy Bren kal. 7,7 mm<br> ");
+
+          $("#nagluwek2").text("Mk III Valentine na pustyni");
+
+          $("#zdj2").attr("src", "MK 3 V2.jpg");
+
+          $("#inf2").text("Cołg Mk III Valentine na Libijskiej pustyni transportujący Szkocką piechote w drodze na front");
+
+        });
+$("#Mk IV Churchill").click(function () {
+    
+          $("h1").text("Mk IV Churchill");
+
+          $("#KGL").html("<b>Powstanie</b><br>Ewakuujący się z Dunkierki po klęsce Francji w 1940 Brytyjski Korpus Ekspedycyjny (British Expeditionary Force – BEF) został zmuszony do porzucenia praktycznie całego sprzętu ciężkiego, w tym czołgów. Uruchomiono nowy program rozwoju broni pancernej, proponując budowę czołgu A20, zaprojektowanego jeszcze przed rozpoczęciem II wojny światowej z myślą o pozycyjnej wojnie okopowej. Był to bardzo powolny, ciężki czołg, będący w stanie pokonać zrytą kraterami „ziemię niczyją”, ale zdecydowanie nie nadawał się do prowadzenia nowoczesnej wojny manewrowej. W 1940 projekt zmodyfikowano i tak powstał czołg A22. We wrześniu 1941 roku otrzymał on dodatkowo nazwę Churchill.  Okazało się, że A22 został wprowadzony do produkcji przedwcześnie, bez przeprowadzenia odpowiednich testów polowych i jego debiut bojowy pod Dieppe był nadzwyczaj nieudany. Po wielu modyfikacjach mających na celu poprawienie jakości wozu, Churchill okazał się konstrukcją całkiem udaną i z powodzeniem wziął udział w walkach w Afryce Północnej. Żołnierze cenili zwłaszcza jego mocne opancerzenie, stosunkowo niską sylwetkę i zdolność pokonywania przeszkód terenowych, minusami było kiepskie uzbrojenie i niska prędkość maksymalna. W późniejszym okresie czołgi Churchill brały udział w walkach we Włoszech i Europie Zachodniej. ");
+
+          $("#KGP").html("<b>W walce</b><br>Czołg Mk IV Churchill w walce sprawował się dobrze, spełniał swoje przeznaczenie w roli czołgu piechoty czyli w wspieraniu piechoty w walce. Jego gruby pancerz zapewniał przyzwoitą ochronę lecz nie był wstanie zatrzymać pocisku z działa 88mm. Uzbrojenie i manewrowość pozostawiały wiele do życzenia. Pomimo to załogi lubiły swoje czołgi Churchill głównie za ochronę.");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "MK 4 C.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 5<br>Trakcja: gąsienicowa<br>Masa: 38 500kg<br>Silnik: 2 silniki gaźnikowe Bedford o mocy 350 KM<br>Pancerz kadłuba: 16–102 mm<br> Pancerz Wieży: 30–60 mm<br>Uzbrojenie:1 Armata 6-funtowa kal. 57 mm  2 karabiny maszynowe Besa kal. 7,92 mm Użytkownicy <br> ");
+
+          $("#nagluwek2").text("czołg Churchill (1943)");
+
+          $("#zdj2").attr("src", "MK 4 C2.jpg");
+
+          $("#inf2").text("opis tego co jest na zdjęciu ale można zostawić puste");
+
+        });
+$("#Mk VI Crusader").click(function () {
+    
+          $("h1").text("Mk VI Crusader");
+
+          $("#KGL").html("<b>Powstanie</b><br>Po nieudanym modelu (A13) „Covenanter”, który nie tylko cierpiał na wiele problemów technicznych, ale okazał się także zbyt słabo opancerzony, zdecydowano poprawić opancerzenie tego czołgu. Nowa konstrukcja otrzymała oznaczenie A15 i została zaprojektowana w biurze konstrukcyjnym Nuffield Organisation.");
+
+          $("#KGP").html("<b>W walce</b><br>Crusader był szybszy od wszystkich czołgów nieprzyjaciela, ale pomimo pogrubienia pancerza, w porównaniu z nimi nadal był bardzo lekko opancerzony, miał problemy mechaniczne i nie posiadał amunicji odłamkowej do jego działa dwufuntowego (40 mm). To ostatnie ograniczenie stanowiło bardzo poważny problem, gdyż wojska Osi opracowały bardzo efektywną taktykę polegającą na wciąganiu czołgów brytyjskich do walki, a następnie wycofywaniu się za tarczę własnych, dobrze ukrytych armat przeciwpancernych o donośności większej niż zasięg karabinów maszynowych brytyjskich czołgów. Postawione w takiej sytuacji załogi czołgów angielskich miały do wyboru: albo wycofać się pod ogniem nieprzyjaciela, albo przeprowadzić samobójczą szarżę na działa wroga. ");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "MK 6 C.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 5<br>Trakcja:	gąsienicowa<br>Masa: 19 800<br>Silnik: 12-cylindrowy widlasty silnik gaźnikowy chłodzony cieczą Nuffield Liberty Mk II o mocy 340 KM<br>Pancerz kadłuba: 7 – 51 mm<br> Pancerz Wieży: 10 – 27 mm<br>Uzbrojenie:armata sześciofuntowa 6-pounder QF kalibru 57 mm z zapasem 65 pocisków, km Besa 7,9 mm z zapasem 3750 naboi<br> ");
+
+          $("#nagluwek2").text("Crusader Mk II (1942)");
+
+          $("#zdj2").attr("src", "MK 6 C2.jpg");
+
+          $("#inf2").text("Crusader Mk II na Libijskiej pustyni (1942)");
+
+        });
+

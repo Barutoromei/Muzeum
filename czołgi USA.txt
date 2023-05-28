@@ -1,0 +1,63 @@
+$("#M4 Sherman").click(function () {
+    
+          $("h1").text("M4 Sherman");
+
+          $("#KGL").html("<b>Powstanie</b><br>Sherman bazował na podwoziu i wielu podzespołach czołgu M3 Lee, na którym zamontowano wieżę z działem 75 mm. Umożliwiło to szybkie przestawienie się zakładów na produkcję nowego pojazdu. Dlatego w okresie od lutego 1942 r. do końca II wojny światowej, wyprodukowano łącznie 49 000 sztuk wszystkich wersji.Produkcję M4 rozpoczęto w lutym 1942 r. i do lipca tegoż roku, wszystkie fabryki wytwarzające czołg M3 Lee przestawiły się na jego produkcję. Po raz pierwszy został użyty w walce przez brytyjską 8 Armię w bitwie pod El Alamein (252 szt).");
+
+          $("#KGP").html("<b>W walce</b><br>M4 Sherman był niezawodnym czołgiem, wyprodukowanym na potrzeby wojny w wielkich ilościach. W momencie wprowadzenia do boju na jesieni 1942, Sherman doskonale dawał sobie radę z czołgami niemieckimi tego okresu. Sytuacja pogorszyła się, gdy w miarę postępu wojny Shermany musiały walczyć z cięższymi czołgami niemieckimi typu Tygrys (57 t) i Pantera (45 t), które z natury rzeczy miały nad nimi znaczną przewagę. Podstawowa armata 75 mm montowana na wczesnych wersjach Shermanów, nie miała szans przebić pancerza przedniego tych modeli czołgów niemieckich. Wprowadzenie armaty M1 kal. 76 mm i pocisków przeciwpancernych M62 i M79 zniwelowało problem w znacznym stopniu – pociski te przebijały bez trudu czołowy pancerz Tygrysa z dystansu 750-1000 metrów. Po wprowadzeniu pocisków M93 problem całkowicie zniknął – mogły one przebić pancerz wroga z dystansu nawet ok. 1400 metrów. Problemów z przebiciem pancerza czołgów niemieckich nie miały również Shermany w wersji Firefly uzbrojone w doskonałą armatę 17-funtową, używane przez wojsko brytyjskie i kanadyjskie, gdzie stanowiły mniej więcej jedną czwartą wszystkich Shermanów w ostatnim roku wojny.");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "M4.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 5<br>Trakcja: gąsienicowa<br>Masa: 30 200 kg<br>Silnik: silnik gwiazdowy, gaźnikowy, 9-cylindrowy, chłodzony powietrzem Continental (Wright Whirlwind) R 975 C4 o mocy 400KM<br>Pancerz kadłuba: 38-108 mm<br> Pancerz Wieży: 51-89 mm<br>Uzbrojenie:1 armata M3 kal. 75 mm (zapas amunicji – 97 szt.) (M4) lub 1 haubica kal. 105 mm ( zapas amunicji – 66 szt.) (M4-105) 1 wielkokalibrowy karabin maszynowy Browning HB2 kal. 12,7 mm (zapas amunicji – 300-600 szt.) 2 karabiny maszynowe M 1919A4 kal. 7,62 mm (zapas amunicji – 4000-4750 szt.)<br> ");
+
+          $("#nagluwek2").text("M4 Sherman (1944)");
+
+          $("#zdj2").attr("src", "M42.jpg");
+
+          $("#inf2").text("Czołg M4 Sherman we Francji 1944");
+
+        });
+$("#M5 Stuart").click(function () {
+    
+          $("h1").text("M5 Stuart");
+
+          $("#KGL").html("<b>Powstanie</b><br>Przez długie lata Amerykanie nie przykładali zbyt wielkiej wagi do rozwoju swojej broni pancernej. W latach 20. XX wieku zbudowali kilka lekkich czołgów wsparcia piechoty, ale nie rozwinęli ich produkcji na dużą skalę. Na początku lat trzydziestych na bazie tych konstrukcji powstał nowy typ czołgu lekkiego M2. Pod wpływem wojennych doświadczeń z Europy, wiosną 1940, Departament Zaopatrzenia opracował projekt gruntownie ulepszonej odmiany czołgu M2A4. W wyniku tych prac powstał czołg lekki M3. Otrzymał on grubszy pancerz (38-51 mm), a także poprawione zawieszenie. W czerwcu 1940 r. projekt ten został zatwierdzony i przyjęty do produkcji, którą rozpoczęto w marcu następnego roku. Wóz był kilkakrotnie modernizowany, między innymi zmieniono nitowaną wieżę na spawaną. Na początku 1942 r. wprowadzono spawany kadłub. Część pojazdów dostała nowe silniki Diesla. Powstały wersje M3, M3 (diesel), M3A1, M3A1 (diesel), M3A3, M5, M5A1. Ogółem w latach 1941-1944 wyprodukowano 22743 czołgi wszystkich wersji");
+
+          $("#KGP").html("<b>W walce</b><br>Czołg lekki M5 Stuart dysponował słabym pancerzem oraz niewielką siłą ognia nadrabiał to mobilnością. Jego zadaniem na polu bitwy za zwyczaj było flankowanie przeciwnika");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "M5.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 4<br>Trakcja: gąsienicowa<br>Masa: 12 900 kg<br>Silnik: 7-cylindrowy gwiazdowy silnik gaźnikowy chłodzony powietrzem Continental W-670-91 / 9-cylindrowy gwiazdowy silnik wysokoprężny chłodzony powietrzem Guiberson T-1020-4 o mocy 250 KM / 220 KM <br>Pancerz kadłuba: 16 - 44 mm<br> Pancerz Wieży: 32 - 51 mm<br>Uzbrojenie:1 x armata M6 kal. 37 mm z zapasem 106-116 pocisków  3 x karabiny maszynowe M1919A4 kal. 7,62 mm z zapasem 6400-7220 naboi<br> ");
+
+          $("#nagluwek2").text("M5 Stuart Francja (1944)");
+
+          $("#zdj2").attr("src", "M52.jpg");
+
+          $("#inf2").text("Czołg M5 Stuart 2 Dywizji pancernej USA (1944)");
+
+        });
+$("#M18 Hellcat").click(function () {
+    
+          $("h1").text("M18 Hellcat");
+
+          $("#KGL").html("<b>Powstanie</b><br>W grudniu 1941 amerykański War Ordnance Department (departament ds. uzbrojenia) ogłosił konkurs na nowy niszczyciel czołgów z zawieszeniem typu Christie, silnikiem Wright Continental R-975 i armatą 37 mm.  Już w czasie kampanii północnoafrykańskiej (operacja Torch) zdecydowano na zmianę uzbrojenia na armatę 57 mm, a w czasie testów zwiększono jeszcze uzbrojenie główne kolejno na armaty 75 mm i 76 mm. Zdecydowano także porzucić oryginalnie zamówione podwozie Christie na rzecz podwozia z drążkiem skrętnym. W lutym 1943 zdecydowano się na ostateczny projekt i produkcja tego pojazdu rozpoczęła się w lipcu tego roku.");
+
+          $("#KGP").html("<b>W walce</b><br>M18 wziął udział w walkach w Europie od 1944 i okazał się bardzo udanym pojazdem, znakomicie nadającym się do ataków z zasadzki i szybkich rajdów na nieprzyjaciela, do czego świetnie pasowały jego niska sylwetka, wysoka prędkość i armata o dużej mocy. Był on w stanie zniszczyć praktycznie wszystkie niemieckie czołgi. W rękach dobrze wyszkolonej załogi stanowił on znakomite narzędzie, na przykład 630. batalion niszczycieli czołgów w samym tylko lipcu 1944 zniszczył 53 Pantery, 15 dział pancernych i jednego Tygrysa, tracąc przy tym tylko 17 własnych pojazdów.");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "M18.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 5<br>Trakcja: gąsienicowa<br>Masa: 17 700 kg<br>Silnik: silnik benzynowy, gwiazdowy, czterosuwowy Wright Continental R-975-C4 o mocy 400 KM przy 2400 obr./min <br>Pancerz kadłuba: 8-12 mm<br> Pancerz Wieży: 12-25 mm<br>Uzbrojenie: 1 x armata M1A1. M1A1C lub M1A2 kal. 76,2 mm 1 x wkm Browning M2HB kalibru 12,7 mm <br> ");
+
+          $("#nagluwek2").text("M18 Hellcat (1944)");
+
+          $("#zdj2").attr("src", "M182.jpg");
+
+          $("#inf2").text("M18 Hellcat podczas walk we Włoszech");
+
+        });

@@ -94,4 +94,8 @@ h1{
     width: 50%;
     margin: 10px;
 }
+.niemC,.brytC,.polsC,.radzC,.japoC,.amerC,.franC{
+  cursor: pointer;
+}
+
 

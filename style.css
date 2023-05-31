@@ -84,6 +84,20 @@ margin-top: 2px;
 .zdjC,#mapa{
     max-width: 194px;
 }
+#part{
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px;
+  background-color: darkgreen;
+  width: 50%;
+}
+
+#part-logo{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  max-width: 200px;
+}
 h1{
     text-align: center;
 }

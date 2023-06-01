@@ -1,0 +1,21 @@
+$("#nazwa czołgu").click(function () {
+    
+          $("h1").text("ISU-152");
+
+          $("#KGL").html("<b>Powstanie</b><br>Początki dział samobieżnych ISU-152 sięgają 24 stycznia 1943 roku – wtedy to pojawił się pierwszy pojazd należący do tej rodziny. Został oznaczony jako Obiekt 236 (Объект 236) i oparty był na tej samej koncepcji co późniejsze ISU-152. Pierwszy prototyp został wyprodukowany 24 stycznia 1943 roku. Próby nad prototypem zakończone 7 lutego 1943 roku nastepnie 14 lutego pojazd został wprowadzony do produkcji pod nazwą kw-14 (КВ-14) w kwietniu 1943 roku zmieniono jego nazwę na SU-152 (СУ-152). ISU-152 (ИСУ-152) jest modernizacją  SU-152 (СУ-152) w której zmieniono podwoze czołgu KW-1S na podwozie czołgu IS zwiększono grubość pancerza oraz wprowadzono ogólne poprawki. Modernizacje roszpoczeto w lipcu 1943 roku 6 listpada 1943 roku zakceptowano poprawioną wersję a produkcje rozpoczeto w grudniu.    ");
+
+          $("#KGP").html("<b>W walce</b><br>Ciężkie działo samobieżne  używanie bylo jako ciężka altyleira samobieżna do niszczenia umocnień, wsparcia piechoty oraz jako niszczyciele czołgów. ");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "isu152.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 5<br>Trakcja:	Gąsienicowa<br>Masa: 46 000 kg (model 1943), 47 300 kg (model 1945)<br>Silnik: 12-cylindrowy widlasty silnik diesla W-2IS o mocy 520 KM (382 kW) chlodzony cieczą, 12-cylindrowy widlasty silnik diesla W-54K o mocy 520 KM (382 kW) (ISU-152K, ISU-152M) chłodzony cieczą<br>Pancerz kadłuba: 20-90mm (model 1943) 20-160mm (model1945)<br>Uzbrojenie:1 × 152,4 mm haubico-armata ML-20S (zapas 20 pocisków) (ISU-152), 1 × 152,4 mm haubico-armata ML-20S (zapas 30 pocisków) (ISU-152K, ISU-152M),1 × 152,4 mm haubico-armata ML-20SM model 1944 (zapas 22 pocisków) (ISU-152 model 1945), ISU-152, ISU-152K1 x karabin 12,7 × 108 mm DSzK (zapas 250 naboi – ISU-152) (zapas 300 naboi – ISU-152K), ISU-152M 1 x karabin 12,7 × 108 mm DSzKM (zapas 300 naboi),ISU-152 model 1945 2 x karabin 12,7 × 108 mm DSzK(zapas 300 naboi)<br> ");
+
+          $("#nagluwek2").text("ISU-152 Ludowego Wojska Polskiego");
+
+          $("#zdj2").attr("src", "isu-152-lwp.jpg");
+
+          $("#inf2").text("opis tego co jest na zdjęciu ale można zostawić puste");
+
+        });

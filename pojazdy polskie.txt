@@ -1,0 +1,65 @@
+$("#nazwa czołgu").click(function () {
+    
+          $("h1").text("7TP");
+
+          $("#KGL").html("<b>Powstanie</b><br>polski czołg lekki skonstruowany przed II wojną światową. Obok tankietek TK-3 i TKS był podstawową bronią polskich sił pancernych podczas wojny obronnej 1939.Konstrukcja czołgu 7TP była polskim rozwinięciem brytyjskiego czołgu Vickers E, którego licencję zakupiła Polska w dwudziestoleciu międzywojennym. Czołg został zatwierdzony do produkcji wiosną 1935 roku. W porównaniu z czołgiem Vickers, 7TP miał mocniejszy silnik wysokoprężny i był pierwszym w Europie oraz jednym z pierwszych na świecie czołgów wyposażonych w tego rodzaju silnik, Pierwsze 25 czołgów wyprodukowano w przejściowym wariancie dwuwieżowym. Ostateczny wariant jednowieżowy miał w wieży opracowaną przez firmę Bofors armatę przeciwpancerną 37 mm Bofors.Brak jest pewnych danych dotyczących liczby wyprodukowanych czołgów. Podaje się często liczbę między 132-134 sztuk jako stan czołgów 7TP przed wojną.");
+
+          $("#KGP").html("<b>W walce</b><br>Czołg był stosowany w samodzielnych batalionach oraz jako wsparciem dla piechoty");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "7tp.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 3<br>Trakcja:	Gąsienicowa<br>Masa: 9 400 (dwuwieżowy) 9 900 (jednowiezowy)<br>Silnik: silnik wysokoprężny, PZInż. 235 (Saurer BLDb), 6-cylindrowy, 4-suwowy, chłodzony cieczą, o pojemności skokowej 8550 cm3. Stopień sprężania 15,5:1. Moc 110 KM (81 kW)<br>Pancerz kadłuba: 10mm-17mm/13mm-17mm<br> Pancerz Wieży: 15mm<br>Uzbrojenie:<br> wersja jednowieżowa1 armata czołgowa Bofors wz. 37 kal. 37 mm (zapas amunicji – 80 szt.), 1 karabin maszynowy wz. 30 kal. 7,92 mm (zapas amunicji – 3960 szt.), wersja dwuwieżowa2 karabiny maszynowe wz. 30 kal. 7,92 mm (zapas amunicji – 6000 szt.)");
+
+          $("#nagluwek2").text("Wkroczenie wojs polskich na Zaolzie");
+
+          $("#zdj2").attr("src", "c:\Users\PC\Desktop\na stronę projekt\7tpstary.jpg");
+
+          $("#inf2").text("Wkroczenie wojsk polskich na Zaolzie w 1938 roku. Na zdjęciu czołg 7TP z peryskopem Gundlacha");
+
+        });
+
+ $("#nazwa czołgu").click(function () {
+    
+          $("h1").text("TKS");
+
+          $("#KGL").html("<b>Powstanie</b><br>olska tankietka z okresu przed II wojną światową. Obok czołgu 7TP był podstawową bronią polskich sił pancernych podczas kampanii wrześniowej 1939. TKS był ulepszoną wersją tankietki TK-3. Został skonstruowany w Biurze Studiów PZInż. przez zespół pod kierunkiem inż. Edwarda Habicha. Główną zmianą była modernizacja kształtu przedniej części kadłuba, wymiana silnika oraz dodanie peryskopu dla dowódcy, zmiana opancerzenia, instalacji elektrycznej, ulepszenie układu jezdnego. Produkcja seryjna ruszyła w 1934[b][2]. Wyprodukowano łącznie 280 egzemplarzy[3]. Ponieważ uzbrojenie czołgu TKS uznano za niewystarczające, na początku 1939 roku (po wcześniejszych próbach jesienią 1938)[2] postanowiono przezbroić 250 czołgów (TK-3 i TKS łącznie) w nkm wz. 38FK kal. 20 mm, polskiej konstrukcji.");
+
+          $("#KGP").html("<b>W walce</b><br>Tankietka służyła jako pojazd rozpoznawczy oraz jako wsparcie dla piechoty");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "taniketka.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 2<br>Trakcja:	Gundlacha<br>Masa: 2 650kg<br>Silnik: silnik gaźnikowy, 6-cylindrowy Polski Fiat 122B o mocy 46 KM<br>Pancerz kadłuba: 3mm-10mm<br>Uzbrojenie:<br>karabin maszynowy Hotchkiss wz. 25 kal. 7,92 mm (zapas amunicji 1920 nabojów w 16 taśmach po 120 = 0,96 jednostki ognia [JO])lub1 najcięższy karabin maszynowy wz. 38 FK-A kal. 20 mm (zapas amunicji 80 nabojów w 16 magazynkach po 5 = 0,50 JO) ");
+
+          $("#nagluwek2").text("TKS 1939");
+
+          $("#zdj2").attr("src", "tankietkastara.jpg");
+
+          $("#inf2").text("Tankietka przekazana polskiemu wojsku przez mieszkańców Krakowa w maju 1939 roku.");
+
+        });       
+
+$("#nazwa czołgu").click(function () {
+    
+          $("h1").text("Samochód pancerny wz. 3");
+
+          $("#KGL").html("<b>Powstanie</b><br> lekki samochód pancerny produkcji polskiej z okresu dwudziestolecia międzywojennego. Był to podstawowy sprzęt Wojska Polskiego tej kategorii w kampanii wrześniowej.Po odzyskaniu przez Polskę niepodległości w roku 1918 w tworzonym Wojsku Polskim rozpoczęto organizowanie oddziałów samochodowych uzbrojonych m.in. w samochody pancerne. Początkowo wykorzystywano pojazdy pozostawione przez zaborców oraz zdobyte w czasie walk o granice. Ponadto zakupiono we Francji niewielkie partie samochodów Peugeot.W połowie lat 20. XX wieku postanowiono opracować lub pozyskać za granicą nowe samochody pancerne, które zastąpiłyby w Wojsku Polskim starsze konstrukcje. Początkowo, w roku 1925, planowano zbudować własne samochody pancerne w oparciu o sprowadzone do Polski w latach 1924-1925 podwozia Citroën-Kegresse B-10CV. Projekt opancerzenia podwozi opracował inż. Robert Gabeau z Biura Konstrukcyjnego Wojskowego Instytutu Badań Inżynierii (BK WIBI) przy współpracy z inż. Józefem Chacińskim z Centralnych Warsztatów Samochodowych (CWS). Dwa prototypowe samochody zbudowano w roku 1925. Wzięły one udział w ćwiczeniach na Wołyniu odbywających się we wrześniu tego samego roku. Na podstawie zdobytych doświadczeń Komitet do Spraw Uzbrojenia i Sprzętu (KSUS) zatwierdził 17 października 1925 roku projekt opancerzenia i polecił zabudowanie według tego wzoru kolejnych 90 podwozi Citroën-Kegresse. Pojawił się jednak zarzut, że podwozia te nie nadają się do tego celu. Zainteresowano się w efekcie projektem włoskiej firmy Ansaldo, która zaproponowała samochód pancerny „Polonia” powstały przez modyfikację ciągników artyleryjskich Pavesi. W styczniu 1926 roku komisja, której przewodniczącym był mjr Romiszowski, dokonała prób porównawczych samochodów firmy Ansaldo z samochodami półgąsienicowymi Citroën-Kegresse. Ostatecznie pozostano przy budowie samochodów pancernych w oparciu o podwozia półgąsienicowe. Z powodu braku pieniędzy przebudowa przebiegała z opóźnieniem i pojazdy oficjalnie przyjęto na wyposażenie Wojska Polskiego dopiero w roku 1928 pod oznaczeniem samochód pancerny wz. 28. Dostawy pojazdów zakończono w roku 1930.Doświadczenia z użytkowania pojazdów zaowocowały wprowadzeniem w kolejnych budowanych samochodach ulepszeń i zmian konstrukcyjnych. W efekcie samochody kolejnych serii produkcyjnych nieznacznie się różniły od siebie. Pojazdy początkowych serii miały przykładowo przednie koła wyposażone w masywy, później zastąpione ogumieniem pneumatycznym W pierwszych latach służby w Wojsku Polskim ujawniły się podstawowe wady samochodów pancernych wz. 28. Wbrew początkowym założeniom, napęd półgąsienicowy nie miał lepszych zdolności do pokonywania terenu niż kołowy. Za to osiągalna prędkość maksymalna była o wiele niższa, a mechanizm gąsienicowy wymagał stosunkowo częstych przeglądów i obsługi.Wobec tego postanowiono posiadane samochody wz. 28 poddać modernizacji, polegającej na przebudowie na pojazdy kołowe. Odpowiedni projekt opracowano w latach 1933-1934 w BK Broni Pancernych WIBI (po rozwiązaniu BK Br Panc WIBI w roku 1934, prace kontynuowano w Biurze Badań Technicznych Broni Pancernych – BBT Br Panc.).Przy modyfikacji postanowiono wykorzystać podzespoły pochodzące z samochodu ciężarowego Polski Fiat 614, produkowanego na licencji zakupionej we Włoszech w roku 1931. Projekt przebudowy ukończono na początku 1934 roku i wkrótce przebudowano jeden samochód. Jego próby trwały od 30 marca do końca lipca 1934 roku. Obejmowały one m.in. testy trakcyjne po piaszczystych i błotnistych drogach Puszczy Kampinoskiej, a także próby porównawcze zmodernizowanego pojazdu z oryginalnym samochodem wz. 28. Wykazały one m.in. konieczność zastosowania specjalnych gąsienic przeciwślizgowych na tylnych kołach. Po dokonaniu niezbędnych poprawek samochód uczestniczył w rajdzie doświadczalnym na trasie Warszawa-Zambrów-Grodno-Nieśwież-Brześć-Warszawa. Pozytywne wyniki prób spowodowały, że nakazano przebudowę dalszych 11 pojazdów. Prace przeprowadzono w 3 Batalionie Czołgów i Samochodów Pancernych w listopadzie 1934 roku i następnie całą serię doświadczalną przekazano do Kierownictwa Zaopatrzenia Broni Pancernych. Decyzją gen. Tadeusza Kasprzyckiego z 14 czerwca 1935 roku, przebudowany model samochodu został zatwierdzony i przyjęty na wyposażenie Wojska Polskiego pod oznaczeniem samochód pancerny wz. 34. Następnie powieloną dokumentację przesłano do warsztatów garnizonowych i jednostek, gdzie we własnym zakresie dokonano przebudowy pozostałych samochodów wz. 28.Przebudowa pojazdów odbywała się stopniowo w latach 1934-1938. Podczas tej modernizacji wykorzystano różne odmiany typowych podzespołów, co spowodowało, że powstały trzy różne odmiany samochodów (oznaczane kolejno: wz. 34, wz. 34-I oraz wz. 34-II). Ogółem powstało ok. 90 samochodów tego typu, z czego ok. 30 w wariancie wz. 34, 24 w wersji wz. 34-I oraz 36 wz. 34-II.");
+
+          $("#KGP").html("<b>W walce</b><br>Było to główne uzbrojenie wojska polskiego w tamtych czasach");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "wz34.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 2<br>Trakcja:	Kołowa<br>Masa: 2 200 kg<br>Silnik: silnik gaźnikowy Citroën B-14 o pojemności 1452 cm³ i mocy 14 KM<br>Pancerz: 6mm-8mm <br>Uzbrojenie:<br> 1 działko Puteaux SA 1918 kal. 37 mm (z zapasem amunicji 96-100 naboi)albo1 karabin maszynowy Hotchkiss wz. 25 kal. 7,92 mm (z zapasem amunicji 2000 naboi)");
+
+          $("#nagluwek2").text("Samochód pancerny wz34 podczas cwiczeń polowych");
+
+          $("#zdj2").attr("src", "wz34stary.jpg");
+
+          $("#inf2").text("Samochód pancerny wz.34 z nowym kadłubem i działkiem 37mm podczas ćwiczeń. Samochód ma początkowy wariant okrągłego jarzma działka. Jasny dysk z pionową belką to ćwiczebne oznaczenie dowódcy pierwszego plutonu.");
+
+        });        

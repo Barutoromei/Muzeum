@@ -19,3 +19,47 @@ $("#nazwa czołgu").click(function () {
           $("#inf2").text("opis tego co jest na zdjęciu ale można zostawić puste");
 
         });
+     
+$("#nazwa czołgu").click(function () {
+    
+          $("h1").text("T-55");
+
+          $("#KGL").html("<b>Powstanie</b><br>Po wprowadzeniu do produkcji i eksploatacji czołgów T-54 na jaw zaczęły wychodzić niedostatki nowego czołgu średniego (później podstawowego I generacji). Największymi były słabe uzbrojenie i opancerzenie, oraz całkowity brak systemów ochrony przed użyciem broni masowego rażenia. W 1953 roku w Uralwagonzawodzie, gdzie m.in. produkowano T-54, głównym konstruktorem został Leonid Karcew. Rozpoczął on prace nad modyfikacjami projektu czołgów T-54 i doprowadził do powstania nowych wersji tego czołgu – T-54A i T-54B. Mimo iż stanowiły one krok do przodu w stosunku do pierwszej wersji T-54, w opinii Karcewa było to za mało. W związku z tym przedstawił on władzom pomysł zbudowania nowego czołgu.Pomysł ten zyskał aprobatę decydentów, przez co w 1954 roku rozpoczęto prace nad nowymi czołgami w kilku zakładach. Karcew zaprezentował wówczas projekt czołgu oznaczonego jako Obiekt 140, a Aleksander Morozow zaprezentował projekt oznaczony jako Obiekt 430. Ostatecznie po próbach porównawczych do dalszych prac skierowano pojazd oznaczony jako Obiekt 155, zaprojektowany przez Karcewa. Był on znacznie bardziej dopracowanym czołgiem T-54, wizualnie do niego dosyć podobnym, ale ilość zmian projektowych i różnic w szczegółach konstrukcji sprawiły, że w praktyce powstał zupełnie nowy czołg ktury otrzymał wojskowe oznaczenie T-55.");
+
+          $("#KGP").html("<b>W walce</b><br>T-55 był wielozadoniowym czołgiem podstawowyma na uzbrojeniu wielu armi śwata. ");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", c:t55.jpg"");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 4<br>Trakcja:	Gąsienicowa<br>Masa: 36 500 kg<br>Silnik: 1 silnik wysokoprężny, 12-cylindrowy W-55 o mocy 580 KM<br>Pancerz kadłuba: 145mm/100mm/60mm<br> Pancerz Wieży: 300mm (320mm T-55A)/150mm/65mm <br>Uzbrojenie:1 armata wz. 1944 D-10T2S kal. 100 mm (zapas amunicji – 43-45 szt.), 2 karabiny maszynowe SGMT kal. 7,62 mm, 1 wielkokalibrowy karabin maszynowy DSzK kal. 12,7 mm.<br> ");
+
+          $("#nagluwek2").text("T-55 należące do Polskiej armi.");
+
+          $("#zdj2").attr("src", "t55pl.jpg");
+
+          $("#inf2").text("T-55 podczas defilaty z okazji 25 lecia PRL");
+
+        });    
+
+ $("#nazwa czołgu").click(function () {
+    
+          $("h1").text("IS-2");
+
+          $("#KGL").html("<b>Powstanie</b><br>Latem 1943 roku powstał w zakładach w Czelabińsku pierwszy model nowego czołgu ciężkiego. Początkowo nosił on oznaczenie „obiekt 237”. Jego głównym konstruktorem był N. F. Szaszmurin. 8 sierpnia 1943 czołg został przyjęty do uzbrojenia Armii Czerwonej. Nowy pojazd otrzymał oznaczenie IS-1 (IS – Iosif Stalin) lub IS-85. Czołg był uzbrojony w armatę D-5T kal. 85 mm. Miał masę ok. 44 t. Wyprodukowano tylko 107 egzemplarzy IS-1. Ponieważ w tym okresie powstał czołg średni T-34-85 uzbrojony w identyczną armatę, zaszła potrzeba wzmocnienia uzbrojenia czołgu ciężkiego. Szybko wdrożono do produkcji czołg uzbrojony w armatę D-25T kalibru 122 mm. Nosił on początkowo oznaczenie „obiekt 240”. Po przyjęciu do uzbrojenia zmieniono je na IS-2. W trakcie produkcji czołg ulegał modernizacji. Wprowadzono w jego armacie półautomatyczny zamek klinowy w celu zwiększenia szybkostrzelności działa. Modernizacji uległ kadłub czołgu, a zwłaszcza kształt jego przednich płyt. Na włazie dowódcy zamontowano podstawę dla wielkokalibrowego karabinu maszynowego DSzK kal. 12,7 mm. Zmodernizowane pojazdy nosiły oznaczenie IS-2M");
+
+          $("#KGP").html("<b>W walce</b><br>IS-2 był kontrą ZSRR na Niemieckiego tygrysa , tworzono z nich samodzielne korpusy czołgów cieżkich, słuzyły równierz jako wsparcie dla poszczególnych korpusów wojskowych,");
+
+          $("#nagluwek1").text("tu nic nie pisz");
+
+          $("#zdj1").attr("src", "c:\Users\PC\Desktop\na stronę projekt\is2.jpg");
+
+          $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 4<br>Trakcja:	Gąsienicowa<br>Masa: 46 000 kg<br>Silnik: silnik wysokoprężny 4-suwowy, 12-cylindrowy, W-2-IS.o mocy 520 KM<br>Pancerz kadłuba: 100mm-120mmk/90mm/60mm<br> Pancerz Wieży: 100-160mm/90mm-100mm/100mm<br>Uzbrojenie:armata D-25T wz. 1943 kal. 122 mm, 1 karabin DSzK kal. 12,7 mm, 3 karabiny DT kal. 7,62 mm <br> ");
+
+          $("#nagluwek2").text("Czołgi IS-2 w Berlinie");
+
+          $("#zdj2").attr("src", "is2-2.jpg");
+
+          $("#inf2").text("Czołgi IS-2 w Berlinie. W tle Brama Brandenburska, 1945 rok.");
+
+        });                

@@ -12,7 +12,7 @@ $("#nazwa czołgu").click(function () {
 
           $("#inf1").html("<b>Dane Techniczne</b><br>Załoga: 3<br>Trakcja:	Gąsienicowa<br>Masa: 9 400 (dwuwieżowy) 9 900 (jednowiezowy)<br>Silnik: silnik wysokoprężny, PZInż. 235 (Saurer BLDb), 6-cylindrowy, 4-suwowy, chłodzony cieczą, o pojemności skokowej 8550 cm3. Stopień sprężania 15,5:1. Moc 110 KM (81 kW)<br>Pancerz kadłuba: 10mm-17mm/13mm-17mm<br> Pancerz Wieży: 15mm<br>Uzbrojenie:<br> wersja jednowieżowa1 armata czołgowa Bofors wz. 37 kal. 37 mm (zapas amunicji – 80 szt.), 1 karabin maszynowy wz. 30 kal. 7,92 mm (zapas amunicji – 3960 szt.), wersja dwuwieżowa2 karabiny maszynowe wz. 30 kal. 7,92 mm (zapas amunicji – 6000 szt.)");
 
-          $("#nagluwek2").text("Wkroczenie wojs polskich na Zaolzie");
+          $("#nagluwek2").text("Wkroczenie wojska polskich na Zaolzie");
 
           $("#zdj2").attr("src", "c:\Users\PC\Desktop\na stronę projekt\7tpstary.jpg");
 
